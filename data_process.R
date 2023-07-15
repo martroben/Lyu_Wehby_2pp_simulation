@@ -1,5 +1,5 @@
 # Load packages
-if(!require("pacman")) { require("pacman") }
+if(!require("pacman")) { install.packages("pacman") }
 pacman::p_load("magrittr", "dplyr", "readr", "lubridate", "ggplot2")
 
 
